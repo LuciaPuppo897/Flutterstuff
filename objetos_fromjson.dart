@@ -26,7 +26,7 @@ class Hero {
   });
   
   Hero.fromJson(Map<String, dynamic>json)
-  : name = json['name']  ?? 'No name founnd',
+  : name = json['name']  ?? 'No name founnd', // funciona bastante parecido a buscar key values en python
     power = json['power'] ?? 'No power found',
     isAlive = json['isAlive'] ?? 'No isAlive found';
   @override
